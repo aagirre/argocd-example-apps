@@ -4,7 +4,7 @@ metadata:
   labels:
     app: guestbook-web
   name: guestbook-web
-  namespace: guestbook
+  namespace: default
 spec:
   externalTrafficPolicy: Cluster
   internalTrafficPolicy: Cluster
