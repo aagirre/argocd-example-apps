@@ -1,0 +1,1 @@
+esta carpeta está vacía para poder borrar los recursos desde ArgoCD, apuntando aquíS
