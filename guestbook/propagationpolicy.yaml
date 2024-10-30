@@ -10,6 +10,9 @@ spec:
     - apiVersion: v1
       kind: Service
       name: guestbook-ui
+    - apiVersion: v1
+      kind: Service
+      name: guestbook-web
   placement:
     clusterAffinity:
       clusterNames:
