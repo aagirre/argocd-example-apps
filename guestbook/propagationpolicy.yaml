@@ -16,7 +16,6 @@ spec:
   placement:
     clusterAffinity:
       clusterNames:
-        - proxmox-member-1
         - proxmox-member-2
     replicaScheduling:
       replicaSchedulingType: Divided
