@@ -4,6 +4,7 @@ kubectl delete -f guestbook-ui-deployment.yaml
 kubectl delete -f guestbook-ui-svc.yaml
 kubectl delete -f nodeport.yaml
 kubectl delete -f propagationpolicy.yaml
+kubectl delete -f propagationpolicy-pod.yaml
 
 kubectl delete -f guestbook-ui-svc-export.yaml
 kubectl delete -f guestbook-ui-svc-export-propagationpolicy.yaml
