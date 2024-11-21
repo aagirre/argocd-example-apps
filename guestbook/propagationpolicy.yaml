@@ -30,5 +30,5 @@ spec:
           - targetCluster:
               clusterNames:
                 - proxmox-member-2
-            weight: 1
+            weight: 2
 
