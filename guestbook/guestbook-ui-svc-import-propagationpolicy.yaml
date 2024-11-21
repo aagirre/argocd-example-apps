@@ -6,7 +6,7 @@ spec:
   resourceSelectors:
     - apiVersion: multicluster.x-k8s.io/v1alpha1
       kind: ServiceImport
-      name: guestbook-ui-import
+      name: guestbook-ui
   placement:
     clusterAffinity:
       clusterNames:
