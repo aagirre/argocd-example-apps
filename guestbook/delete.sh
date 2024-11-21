@@ -10,9 +10,9 @@ kubectl delete -f guestbook-ui-svc-export-propagationpolicy.yaml
 kubectl delete -f guestbook-ui-svc-import.yaml
 kubectl delete -f guestbook-ui-svc-import-propagationpolicy.yaml
 
-kubectl delete -f nodeport-export.yaml
-kubectl delete -f nodeport-export-propagationpolicy.yaml
-kubectl delete -f nodeport-import.yaml
-kubectl delete -f nodeport-import-propagationpolicy.yaml
+#kubectl delete -f nodeport-export.yaml
+#kubectl delete -f nodeport-export-propagationpolicy.yaml
+#kubectl delete -f nodeport-import.yaml
+#kubectl delete -f nodeport-import-propagationpolicy.yaml
 
 echo "Done!"

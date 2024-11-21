@@ -3,6 +3,6 @@ kind: ServiceImport
 metadata:
   name: guestbook-web
 spec:
-  type: NodePort
+  type: ClusterSetIP
   ports:
   - port: 30800

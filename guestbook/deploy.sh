@@ -10,9 +10,9 @@ kubectl apply -f guestbook-ui-svc-export-propagationpolicy.yaml
 kubectl apply -f guestbook-ui-svc-import.yaml
 kubectl apply -f guestbook-ui-svc-import-propagationpolicy.yaml
 
-kubectl apply -f nodeport-export.yaml
-kubectl apply -f nodeport-export-propagationpolicy.yaml
-kubectl apply -f nodeport-import.yaml
-kubectl apply -f nodeport-import-propagationpolicy.yaml
+#kubectl apply -f nodeport-export.yaml
+#kubectl apply -f nodeport-export-propagationpolicy.yaml
+#kubectl apply -f nodeport-import.yaml
+#kubectl apply -f nodeport-import-propagationpolicy.yaml
 
 echo "Done!"
